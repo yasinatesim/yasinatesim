@@ -3,7 +3,7 @@
 ![Yasin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yasinatesim&show_icons=true&theme=dark)
 
 
-I'am a **Frontend Developer** In Istanbul/Turkey
+I'm a **Frontend Developer** in Istanbul/Turkey
 
 
 ## 📖 About Me

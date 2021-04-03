@@ -1,6 +1,9 @@
 ### Hi! I'm Yasin. Welcome to my Github Profile 👋
 
-![Yasin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yasinatesim&show_icons=true&theme=dark)
+![Yasin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yasinatesim&show_icons=true&theme=dark&include_all_commits=true&count_private=true)
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yasinatesim&theme=dark)
 
 
 I'm a **Frontend Developer** in Istanbul/Turkey

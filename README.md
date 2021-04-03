@@ -2,8 +2,8 @@
 
 
 <a href="https://github.com/yasinatesim">
-  <img height="255" src="https://github-readme-stats.vercel.app/api?username=yasinatesim&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="255" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasinatesim&theme=dark"/>
+  <img height="225" src="https://github-readme-stats.vercel.app/api?username=yasinatesim&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="225" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasinatesim&theme=dark"/>
 </a>
 
 

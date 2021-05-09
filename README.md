@@ -39,7 +39,7 @@ Coming soon... 😎
 <p>
 <img height="30" src="https://yasinates.com/tech/react.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img height="30" src="https://yasinates.com/tech/next.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="30" src="https://yasinates.com/tech/typescript.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="40" src="https://yasinates.com/tech/typescript.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img height="30" src="https://yasinates.com/tech/graphql.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img height="30" src="https://yasinates.com/tech/apollo.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img height="30" src="https://yasinates.com/tech/vue.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

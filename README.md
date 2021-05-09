@@ -37,14 +37,14 @@ Coming soon... 😎
 <br>
 
 <p>
-<img height="50" src="https://yasinates.com/tech/react.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="50" src="https://yasinates.com/tech/next.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="50" src="https://yasinates.com/tech/typescript.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="50" src="https://yasinates.com/tech/graphql.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="50" src="https://yasinates.com/tech/apollo.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="50" src="https://yasinates.com/tech/vue.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="50" src="https://yasinates.com/tech/nuxt.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="50" src="https://yasinates.com/tech/sass.svg">
+<img height="30" src="https://yasinates.com/tech/react.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="30" src="https://yasinates.com/tech/next.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="30" src="https://yasinates.com/tech/typescript.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="30" src="https://yasinates.com/tech/graphql.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="30" src="https://yasinates.com/tech/apollo.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="30" src="https://yasinates.com/tech/vue.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="30" src="https://yasinates.com/tech/nuxt.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height="30" src="https://yasinates.com/tech/sass.svg">
 </p>
 
 ## 📫 Contact Me

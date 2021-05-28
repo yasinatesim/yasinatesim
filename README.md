@@ -37,7 +37,7 @@ Coming soon... 😎
 <br>
 
 <p>
-<img height="40" src="https://yasinates.com/tech/react.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <code><img height="40" src="https://yasinates.com/tech/react.svg"></code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img height="40" src="https://yasinates.com/tech/next.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img height="40" src="https://yasinates.com/tech/typescript.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img height="40" src="https://yasinates.com/tech/graphql.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

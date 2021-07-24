@@ -17,7 +17,7 @@ I started the software development adventure in 2012.  I'm working as Frontend D
 
 <p>
 <a href="https://www.linkedin.com/in/yasinatesim"><img src="https://img.shields.io/badge/Linkedin-%23303036?logo=linkedin&color=%23303036&style=flat-square"></a>
-<a href="https://www.instagram.com/codewith_yasinatesim"><img src="https://img.shields.io/badge/Instagram-%23303036?logo=instagram&color=%23303036&style=flat-square"></a>
+
 <a href="https://medium.com/@yasinatesim">
 <img src="https://img.shields.io/badge/Medium-%23303036?logo=medium&color=%23303036&style=flat-square">
 </a>
@@ -37,14 +37,20 @@ Coming soon... 😎
 <br>
 
 <p>
-<img height="40" src="https://yasinates.com/tech/react.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="40" src="https://yasinates.com/tech/next.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="40" src="https://yasinates.com/tech/typescript.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="40" src="https://yasinates.com/tech/graphql.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="40" src="https://yasinates.com/tech/apollo.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="40" src="https://yasinates.com/tech/vue.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="40" src="https://yasinates.com/tech/nuxt.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height="40" src="https://yasinates.com/tech/sass.svg">
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+  <img alt="Next JS" src="https://img.shields.io/badge/nextjs-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white"/>
+
+  <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+
+  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-000000?style=for-the-badge&logo=graphql"/>
+  
+<img alt="Apollo-GraphQL" src="https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql"/>
+  
+  <img alt="Vue.Js" src="https://img.shields.io/badge/-Vue.js-black?style=for-the-badge&logo=vue.js"/>
+
+
+  <img alt="NuxtJS" src="https://img.shields.io/badge/NuxtJS-black.svg?style=for-the-badge&logo=Nuxt.JS"/>
+<img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
 </p>
 
 ## 📫 Contact Me

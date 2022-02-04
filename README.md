@@ -16,6 +16,9 @@ I'm a **Frontend Developer** in Istanbul/Turkey
 I started the software development adventure in 2012.  I'm working as Frontend Developer since 2015 I try to follow up-to-date technologies related to software, mostly frontend. I share the Turkish content I shared on Medium in dev.to in English. You can follow the links below to get to know me better and follow my accounts. 😎
 
 <p>
+  
+<a href="https://twitter.com/yasinatesim"><img src="https://img.shields.io/badge/Twitter-%23303036?logo=twitter&color=%23303036&style=flat-square"></a>
+  
 <a href="https://www.linkedin.com/in/yasinatesim"><img src="https://img.shields.io/badge/Linkedin-%23303036?logo=linkedin&color=%23303036&style=flat-square"></a>
 
 <a href="https://medium.com/@yasinatesim">

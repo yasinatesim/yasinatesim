@@ -45,13 +45,13 @@ Coming soon... 😎
   <img alt="Next JS" src="https://img.shields.io/badge/nextjs-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white"/>
 
   <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
-
   
   <img alt="Vue.Js" src="https://img.shields.io/badge/-Vue.js-black?style=for-the-badge&logo=vue.js"/>
 
-
-  <img alt="NuxtJS" src="https://img.shields.io/badge/NuxtJS-black.svg?style=for-the-badge&logo=Nuxt.JS"/>
 <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
+  
+  
+  <img alt="Storybok" src="https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white"/>
 </p>
 
 ## 📫 Contact Me

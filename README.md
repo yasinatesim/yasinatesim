@@ -43,9 +43,7 @@ Coming soon... 😎
 
   <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
 
-  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-000000?style=for-the-badge&logo=graphql"/>
-  
-<img alt="Apollo-GraphQL" src="https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql"/>
+  <img alt="Redux" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"/>
   
   <img alt="Vue.Js" src="https://img.shields.io/badge/-Vue.js-black?style=for-the-badge&logo=vue.js"/>
 

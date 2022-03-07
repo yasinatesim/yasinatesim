@@ -29,7 +29,7 @@ I started the software development adventure in 2012.  I'm working as Frontend D
 
 ### 🌱  I'm currently learning 
 
-Microservices and machine learning for my projects idea 💪 🔥
+Machine learning for my projects idea 💪 🔥
 
 Coming soon... 😎
 

@@ -56,8 +56,3 @@ Coming soon... 😎
 
 ## 📫 Contact Me
 -  yasinatesim@gmail.com is my email address. 😋
-
-
-<br>
-
-![visitors](https://img.shields.io/badge/dynamic/json?color=informational&label=visitor%20count&query=value&url=https://api.countapi.xyz/hit/yasinatesim.yasinatesim/readme)

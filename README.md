@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&pause=1000&color=F97316&center=true&vCenter=true&width=750&lines=Hi%2C+I+am+Yasin+ATE%C5%9E+%F0%9F%91%8B;Frontend+Developer+from+Istanbul+%2F+Turkey+%F0%9F%87%B9%F0%9F%87%B7;Welcome+to+my+Github+profile"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Hi!+I'm+Yasin+Ateş+%F0%9F%91%8B;Frontend+Developer+from+Istanbul%2C+Turkey+%F0%9F%87%B9%F0%9F%87%B7;Welcome+to+my+GitHub+profile!"/>
 </p>
 
 

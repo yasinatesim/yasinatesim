@@ -54,14 +54,27 @@
 
 ## 🌐 Social Media
 
-<p>
-  <a href="https://www.linkedin.com/in/yasinatesim"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?logo=linkedin&logoColor=white&style=for-the-badge"/></a>
-  <a href="https://instagram.com/yasinatesim"><img src="https://img.shields.io/badge/Instagram-%23E4405F?logo=instagram&logoColor=white&style=for-the-badge"/></a>
-  <a href="https://twitter.com/yasinatesim"><img src="https://img.shields.io/badge/X(Twitter)-%23181818?logo=x&logoColor=white&style=for-the-badge"/></a>
-  <a href="https://medium.com/@yasinatesim"><img src="https://img.shields.io/badge/Medium-%23000000?logo=medium&logoColor=white&style=for-the-badge"/></a>
-  <a href="https://dev.to/yasinatesim"><img src="https://img.shields.io/badge/dev.to-%23000000?logo=devdotto&logoColor=white&style=for-the-badge"/></a>
-</p>
 
+<p>
+  <a href="https://www.linkedin.com/in/yasinatesim">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://instagram.com/yasinatesim">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://twitter.com/yasinatesim">
+    <img src="https://img.shields.io/badge/X(Twitter)-%23181818?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+  <a href="https://medium.com/@yasinatesim">
+    <img src="https://img.shields.io/badge/Medium-%23000000?style=for-the-badge&logo=medium&logoColor=white"/>
+  </a>
+  <a href="https://dev.to/yasinatesim">
+    <img src="https://img.shields.io/badge/dev.to-%23000000?style=for-the-badge&logo=devdotto&logoColor=white"/>
+  </a>
+  <a href="https://youtube.com/@yasinatesim">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
+</p>
 
 
 ---

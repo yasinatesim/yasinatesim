@@ -1,10 +1,6 @@
 
 <!-- Hi, I'm Yasin Ateş! 👋 -->
 
-<p align="center">
-  <img src="https://yasinates.com/yasin-ates-hakkimda.jpg" width="120" style="border-radius:50%" alt="Yasin Ateş"/>
-</p>
-
 <h1 align="center">Hi! I'm Yasin Ateş <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
 
 <p align="center">

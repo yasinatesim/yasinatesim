@@ -1,12 +1,10 @@
 
-<!-- Hi, I'm Yasin Ateş! 👋 -->
-
-<h1 align="center">Hi! I'm Yasin Ateş <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
-
 <p align="center">
-  <b>Frontend Developer</b> from <b>Istanbul, Turkey</b> 🇹🇷<br/>
-  <a href="https://yasinates.com">yasinates.com</a>
-</p>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&pause=1000&color=F97316&center=true&vCenter=true&width=600&lines=Hi!+I'm+Yasin+Ateş+%F0%9F%91%8B;Frontend+Developer+from+Istanbul%2C+Turkey+%F0%9F%87%B9%F0%9F%87%B7;Welcome+to+my+GitHub+profile!"/>
+
+</p> 
+
 
 ## 📖 About Me
 
@@ -71,6 +69,10 @@
 ---
 
 
+<details>
+  <summary>Stats...</summary>
+
+
 <p align="center">
   <a href="https://github.com/yasinatesim">
     <img height="180" src="https://github-readme-stats.vercel.app/api?username=yasinatesim&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
@@ -79,3 +81,5 @@
     <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yasinatesim&theme=radical"/>
   </a>
 </p>
+</details>
+

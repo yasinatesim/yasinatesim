@@ -20,7 +20,7 @@
 <!-- MEDIUM-ARTICLES:START -->
 - [Micro Frontend Mimarisi (React Örnekleriyle)](https://medium.com/@yasinatesim/micro-frontend-mimarisi-react-%C3%B6rnekleriyle-f19523caab11?source=rss-912131191640------2)
 - [Websitenize Dalgalı Efektli Divider’lar Ekleyin](https://medium.com/@yasinatesim/websitenize-dalgal%C4%B1-efektli-dividerlar-ekleyin-7681d4caeb25?source=rss-912131191640------2)
-- [Google Lighthouse’u Yazılım Geliştirme Sürecimize Nasıl Entegre Ettik ?](https://medium.com/hepsiburadatech/google-lighthouseu-yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme-s%C3%BCrecimize-nas%C4%B1l-entegre-ettik-bec53f0b401d?source=rss-912131191640------2)
+- [Google Lighthouse’u Yazılım Geliştirme Sürecimize Nasıl Entegre Ettik ?](https://medium.com/hepsiburadatech/google-lighthouseu-yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme-s%C3%BCrecimize-nas%C4%B1l-entegre-ettik-bec53f0b401d?source=rss-912131191640------2) *(Hepsiburadatech)*
 - [yasinates.com Çok Yakında Yayında](https://medium.com/@yasinatesim/yasinates-com-%C3%A7ok-yak%C4%B1nda-yay%C4%B1nda-dede320f9281?source=rss-912131191640------2)
 - [A’dan Z’ye Typescript](https://medium.com/@yasinatesim/adan-z-ye-typescript-d27a1b6ff17a?source=rss-912131191640------2)
 - [Bir HTML Preprocessors’u: Pug Js](https://medium.com/@yasinatesim/bir-html-preprocessorsu-pug-js-761b6289a26b?source=rss-912131191640------2)

@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [GitHub Profil README’ni Canlı Tut: GitHub Actions ile Otomatik Güncelleme Rehberi⚡](https://medium.com/@yasinatesim/github-profil-readmeni-canl%C4%B1-tut-github-actions-ile-otomatik-g%C3%BCncelleme-rehberi-64035541c644?source=rss-912131191640------2)
 - [Micro Frontend Mimarisi (React Örnekleriyle)](https://medium.com/@yasinatesim/micro-frontend-mimarisi-react-%C3%B6rnekleriyle-f19523caab11?source=rss-912131191640------2)
 - [Websitenize Dalgalı Efektli Divider’lar Ekleyin](https://medium.com/@yasinatesim/websitenize-dalgal%C4%B1-efektli-dividerlar-ekleyin-7681d4caeb25?source=rss-912131191640------2)
 - [Google Lighthouse’u Yazılım Geliştirme Sürecimize Nasıl Entegre Ettik ?](https://medium.com/hepsiburadatech/google-lighthouseu-yaz%C4%B1l%C4%B1m-geli%C5%9Ftirme-s%C3%BCrecimize-nas%C4%B1l-entegre-ettik-bec53f0b401d?source=rss-912131191640------2) *(Hepsiburadatech)*

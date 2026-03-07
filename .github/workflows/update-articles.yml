@@ -2,8 +2,8 @@ name: 📝 Update Blog Articles
 
 on:
   schedule:
-    - cron: "0 6 * * *"   
-  workflow_dispatch:        
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
+          git add README.md medium_articles.json
           git diff --staged --quiet || git commit -m "📝 Auto-update: Latest blog articles [$(date +'%Y-%m-%d')]"
           git push

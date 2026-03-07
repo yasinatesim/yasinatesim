@@ -1,11 +1,16 @@
+"""
+fetch_articles.py
+-----------------
+Medium RSS ve dev.to API'sinden tüm makaleleri çeker,
+README.md içindeki placeholder'ları otomatik günceller.
+"""
+
 import re
 import feedparser
 import requests
-from datetime import datetime
 
 MEDIUM_USERNAME = "yasinatesim"
 DEVTO_USERNAME  = "yasinatesim"
-MAX_ARTICLES    = 5
 README_PATH     = "README.md"
 
 MEDIUM_START = "<!-- MEDIUM-ARTICLES:START -->"
@@ -18,43 +23,31 @@ def fetch_medium_articles():
     url  = f"https://medium.com/feed/@{MEDIUM_USERNAME}"
     feed = feedparser.parse(url)
     articles = []
-    for entry in feed.entries[:MAX_ARTICLES]:
-        date = ""
-        if hasattr(entry, "published_parsed") and entry.published_parsed:
-            date = datetime(*entry.published_parsed[:3]).strftime("%b %d, %Y")
-        articles.append({"title": entry.title, "url": entry.link, "date": date})
+    for entry in feed.entries:
+        articles.append({"title": entry.title, "url": entry.link})
     return articles
 
 
 def fetch_devto_articles():
-    url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page={MAX_ARTICLES}"
-    response = requests.get(url, timeout=10)
-    articles = []
-    if response.status_code == 200:
-        for item in response.json()[:MAX_ARTICLES]:
-            date = ""
-            if item.get("published_at"):
-                date = datetime.fromisoformat(
-                    item["published_at"].replace("Z", "+00:00")
-                ).strftime("%b %d, %Y")
-            articles.append({
-                "title": item["title"],
-                "url":   item["url"],
-                "date":  date,
-            })
+    page, articles = 1, []
+    while True:
+        url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100&page={page}"
+        response = requests.get(url, timeout=10)
+        if response.status_code != 200:
+            break
+        batch = response.json()
+        if not batch:
+            break
+        for item in batch:
+            articles.append({"title": item["title"], "url": item["url"]})
+        page += 1
     return articles
 
 
 def build_article_rows(articles):
     if not articles:
         return "_No articles found._"
-    rows = []
-    for a in articles:
-        date_badge = (
-            f'<sub>{a["date"]}</sub> ' if a["date"] else ""
-        )
-        rows.append(f'- {date_badge}[{a["title"]}]({a["url"]})')
-    return "\n".join(rows)
+    return "\n".join(f'- [{a["title"]}]({a["url"]})' for a in articles)
 
 
 def replace_section(content, start_marker, end_marker, new_body):

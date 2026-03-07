@@ -1,10 +1,3 @@
-"""
-fetch_articles.py
------------------
-Medium RSS ve dev.to API'sinden tüm makaleleri çeker,
-README.md içindeki placeholder'ları otomatik günceller.
-"""
-
 import re
 import feedparser
 import requests

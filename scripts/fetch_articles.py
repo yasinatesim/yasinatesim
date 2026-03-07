@@ -1,10 +1,13 @@
 import re
+import json
+import os
 import feedparser
 import requests
 
 MEDIUM_USERNAME = "yasinatesim"
 DEVTO_USERNAME  = "yasinatesim"
 README_PATH     = "README.md"
+MEDIUM_CACHE    = "medium_articles.json"  # Repoda saklanır, birikerek büyür
 
 MEDIUM_START = "<!-- MEDIUM-ARTICLES:START -->"
 MEDIUM_END   = "<!-- MEDIUM-ARTICLES:END -->"
@@ -12,35 +15,64 @@ DEVTO_START  = "<!-- DEVTO-ARTICLES:START -->"
 DEVTO_END    = "<!-- DEVTO-ARTICLES:END -->"
 
 
+def load_medium_cache():
+    """Repodaki JSON cache'i yükle. Yoksa boş dict döndür."""
+    if os.path.exists(MEDIUM_CACHE):
+        with open(MEDIUM_CACHE, "r", encoding="utf-8") as f:
+            # {url: {title, url, publication}} formatında saklanır
+            return json.load(f)
+    return {}
+
+
+def save_medium_cache(cache):
+    """Güncel cache'i JSON olarak repoya kaydet."""
+    with open(MEDIUM_CACHE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
+def parse_publication(link):
+    """Medium URL'inden publication adını çıkar."""
+    subdomain_match = re.match(r"https://([^.]+)\.medium\.com/", link)
+    path_match      = re.match(r"https://medium\.com/([^@/][^/]*)/", link)
+    system_paths    = {"tag", "tags", "search", "topic", "topics",
+                       "m", "about", "membership"}
+
+    if subdomain_match:
+        slug = subdomain_match.group(1)
+        return slug.replace("-", " ").title()
+    elif path_match:
+        slug = path_match.group(1)
+        if slug not in system_paths:
+            return slug.replace("-", " ").title()
+    return None
+
+
 def fetch_medium_articles():
+    cache = load_medium_cache()
+
     url  = f"https://medium.com/feed/@{MEDIUM_USERNAME}"
     feed = feedparser.parse(url)
-    articles = []
+
+    new_count = 0
     for entry in feed.entries:
-        publication = None
         link = entry.link
+        if link not in cache:
+            cache[link] = {
+                "title":       entry.title,
+                "url":         link,
+                "publication": parse_publication(link),
+            }
+            new_count += 1
 
-        subdomain_match = re.match(r"https://([^.]+)\.medium\.com/", link)
-        path_match      = re.match(r"https://medium\.com/([^@/][^/]*)/", link)
+    save_medium_cache(cache)
+    print(f"   📦 Cache: {len(cache)} total | +{new_count} new")
 
-        if subdomain_match:
-            slug = subdomain_match.group(1)
-            publication = slug.replace("-", " ").title()
-        elif path_match:
-            slug = path_match.group(1)
-            system_paths = {"tag", "tags", "search", "topic", "topics", "m", "about", "membership"}
-            if slug not in system_paths:
-                publication = slug.replace("-", " ").title()
+    return list(cache.values())
 
-        articles.append({
-            "title":       entry.title,
-            "url":         link,
-            "publication": publication,
-        })
-    return articles
 
 
 def fetch_devto_articles():
+    """dev.to API'si sayfalama desteklediği için JSON trick'e gerek yok."""
     page, articles = 1, []
     while True:
         url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100&page={page}"
@@ -54,6 +86,7 @@ def fetch_devto_articles():
             articles.append({"title": item["title"], "url": item["url"]})
         page += 1
     return articles
+
 
 
 def build_medium_rows(articles):
@@ -82,9 +115,9 @@ def replace_section(content, start_marker, end_marker, new_body):
 
 
 def main():
-    print("📡 Fetching Medium articles...")
+    print("📡 Fetching Medium articles (with cache)...")
     medium_articles = fetch_medium_articles()
-    print(f"   ✅ {len(medium_articles)} articles fetched.")
+    print(f"   ✅ {len(medium_articles)} total articles.")
 
     print("📡 Fetching dev.to articles...")
     devto_articles = fetch_devto_articles()

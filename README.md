@@ -15,6 +15,17 @@
 
 
 
+## ✍️ Latest Medium Articles
+
+<!-- MEDIUM-ARTICLES:START -->
+
+<!-- MEDIUM-ARTICLES:END -->
+
+## 📝 Latest dev.to Articles
+
+<!-- DEVTO-ARTICLES:START -->
+
+<!-- DEVTO-ARTICLES:END -->
 
 
 ## 🛠️ Tech Stack

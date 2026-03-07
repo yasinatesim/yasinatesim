@@ -17,7 +17,26 @@ def fetch_medium_articles():
     feed = feedparser.parse(url)
     articles = []
     for entry in feed.entries:
-        articles.append({"title": entry.title, "url": entry.link})
+        publication = None
+        link = entry.link
+
+        subdomain_match = re.match(r"https://([^.]+)\.medium\.com/", link)
+        path_match      = re.match(r"https://medium\.com/([^@/][^/]*)/", link)
+
+        if subdomain_match:
+            slug = subdomain_match.group(1)
+            publication = slug.replace("-", " ").title()
+        elif path_match:
+            slug = path_match.group(1)
+            system_paths = {"tag", "tags", "search", "topic", "topics", "m", "about", "membership"}
+            if slug not in system_paths:
+                publication = slug.replace("-", " ").title()
+
+        articles.append({
+            "title":       entry.title,
+            "url":         link,
+            "publication": publication,
+        })
     return articles
 
 
@@ -37,7 +56,17 @@ def fetch_devto_articles():
     return articles
 
 
-def build_article_rows(articles):
+def build_medium_rows(articles):
+    if not articles:
+        return "_No articles found._"
+    rows = []
+    for a in articles:
+        pub = f" *({a['publication']})*" if a.get("publication") else ""
+        rows.append(f'- [{a["title"]}]({a["url"]}){pub}')
+    return "\n".join(rows)
+
+
+def build_devto_rows(articles):
     if not articles:
         return "_No articles found._"
     return "\n".join(f'- [{a["title"]}]({a["url"]})' for a in articles)
@@ -65,9 +94,9 @@ def main():
         content = f.read()
 
     content = replace_section(content, MEDIUM_START, MEDIUM_END,
-                               build_article_rows(medium_articles))
+                               build_medium_rows(medium_articles))
     content = replace_section(content, DEVTO_START, DEVTO_END,
-                               build_article_rows(devto_articles))
+                               build_devto_rows(devto_articles))
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)

@@ -72,18 +72,12 @@ def fetch_medium_articles():
 
 
 def fetch_devto_articles():
-    page, articles = 1, []
-    while True:
-        url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100"
-        response = requests.get(url, timeout=10)
-        if response.status_code != 200:
-            break
-        batch = response.json()
-        if not batch:
-            break
-        for item in batch:
+    url = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100"
+    response = requests.get(url, timeout=10)
+    articles = []
+    if response.status_code == 200:
+        for item in response.json():
             articles.append({"title": item["title"], "url": item["url"]})
-        page += 1
     return articles
 
 

@@ -72,10 +72,9 @@ def fetch_medium_articles():
 
 
 def fetch_devto_articles():
-    """dev.to API'si sayfalama desteklediği için JSON trick'e gerek yok."""
     page, articles = 1, []
     while True:
-        url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100&page={page}"
+        url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100"
         response = requests.get(url, timeout=10)
         if response.status_code != 200:
             break

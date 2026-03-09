@@ -1,7 +1,6 @@
 import re
 import json
 import os
-import urllib.request
 import feedparser
 import requests
 
@@ -14,6 +13,11 @@ MEDIUM_START = "<!-- MEDIUM-ARTICLES:START -->"
 MEDIUM_END   = "<!-- MEDIUM-ARTICLES:END -->"
 DEVTO_START  = "<!-- DEVTO-ARTICLES:START -->"
 DEVTO_END    = "<!-- DEVTO-ARTICLES:END -->"
+
+SESSION = requests.Session()
+SESSION.headers.update({
+    "User-Agent": "Mozilla/5.0 (compatible; GitHub Actions bot)"
+})
 
 
 def load_medium_cache():
@@ -33,10 +37,8 @@ def parse_publication(link):
     path_match      = re.match(r"https://medium\.com/([^@/][^/]*)/", link)
     system_paths    = {"tag", "tags", "search", "topic", "topics",
                        "m", "about", "membership"}
-
     if subdomain_match:
-        slug = subdomain_match.group(1)
-        return slug.replace("-", " ").title()
+        return subdomain_match.group(1).replace("-", " ").title()
     elif path_match:
         slug = path_match.group(1)
         if slug not in system_paths:
@@ -47,29 +49,31 @@ def parse_publication(link):
 def fetch_medium_articles():
     cache = load_medium_cache()
 
+    # Medium bazen GitHub Actions IP'lerini bloke eder.
+    # Bu durumda cache'teki mevcut makaleleri kullanırız.
+    rss_url = f"https://medium.com/feed/@{MEDIUM_USERNAME}"
     try:
-        # feedparser'a timeout eklemek için önce requests ile çekip ona veriyoruz
-        rss_url  = f"https://medium.com/feed/@{MEDIUM_USERNAME}"
-        response = requests.get(rss_url, timeout=15)
+        response = SESSION.get(rss_url, timeout=(5, 10))  # (connect, read) timeout
         response.raise_for_status()
         feed = feedparser.parse(response.text)
+
+        new_count = 0
+        for entry in feed.entries:
+            link = entry.link
+            if link not in cache:
+                cache[link] = {
+                    "title":       entry.title,
+                    "url":         link,
+                    "publication": parse_publication(link),
+                }
+                new_count += 1
+
+        save_medium_cache(cache)
+        print(f"   📦 Cache: {len(cache)} total | +{new_count} new")
+
     except Exception as e:
-        print(f"   ⚠️ Medium RSS fetch failed: {e}. Using cache only.")
-        return list(cache.values())
-
-    new_count = 0
-    for entry in feed.entries:
-        link = entry.link
-        if link not in cache:
-            cache[link] = {
-                "title":       entry.title,
-                "url":         link,
-                "publication": parse_publication(link),
-            }
-            new_count += 1
-
-    save_medium_cache(cache)
-    print(f"   📦 Cache: {len(cache)} total | +{new_count} new")
+        print(f"   ⚠️  Medium RSS unavailable: {e}")
+        print(f"   📦 Using cache: {len(cache)} articles")
 
     return list(cache.values())
 
@@ -77,15 +81,12 @@ def fetch_medium_articles():
 def fetch_devto_articles():
     try:
         url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100"
-        response = requests.get(url, timeout=15)
-        articles = []
+        response = SESSION.get(url, timeout=(5, 10))
         if response.status_code == 200:
-            for item in response.json():
-                articles.append({"title": item["title"], "url": item["url"]})
-        return articles
+            return [{"title": i["title"], "url": i["url"]} for i in response.json()]
     except Exception as e:
-        print(f"   ⚠️ dev.to fetch failed: {e}")
-        return []
+        print(f"   ⚠️  dev.to fetch failed: {e}")
+    return []
 
 
 def build_medium_rows(articles):
@@ -109,8 +110,7 @@ def replace_section(content, start_marker, end_marker, new_body):
         rf"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
         re.DOTALL,
     )
-    replacement = f"{start_marker}\n{new_body}\n{end_marker}"
-    return pattern.sub(replacement, content)
+    return pattern.sub(f"{start_marker}\n{new_body}\n{end_marker}", content)
 
 
 def main():

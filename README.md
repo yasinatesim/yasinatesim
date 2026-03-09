@@ -30,6 +30,7 @@
 ## 📝 Latest dev.to Articles
 
 <!-- DEVTO-ARTICLES:START -->
+- [Micro Frontend Architecture (with React Examples) 🧩](https://dev.to/yasinatesim/micro-frontend-architecture-with-react-examples-2b5h)
 - [yasinates.com is coming soon 😋](https://dev.to/yasinatesim/yasinates-com-is-coming-soon-50od)
 <!-- DEVTO-ARTICLES:END -->
 

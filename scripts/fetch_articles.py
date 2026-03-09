@@ -1,13 +1,14 @@
 import re
 import json
 import os
+import urllib.request
 import feedparser
 import requests
 
 MEDIUM_USERNAME = "yasinatesim"
 DEVTO_USERNAME  = "yasinatesim"
 README_PATH     = "README.md"
-MEDIUM_CACHE    = "medium_articles.json"  # Repoda saklanır, birikerek büyür
+MEDIUM_CACHE    = "medium_articles.json"
 
 MEDIUM_START = "<!-- MEDIUM-ARTICLES:START -->"
 MEDIUM_END   = "<!-- MEDIUM-ARTICLES:END -->"
@@ -16,22 +17,18 @@ DEVTO_END    = "<!-- DEVTO-ARTICLES:END -->"
 
 
 def load_medium_cache():
-    """Repodaki JSON cache'i yükle. Yoksa boş dict döndür."""
     if os.path.exists(MEDIUM_CACHE):
         with open(MEDIUM_CACHE, "r", encoding="utf-8") as f:
-            # {url: {title, url, publication}} formatında saklanır
             return json.load(f)
     return {}
 
 
 def save_medium_cache(cache):
-    """Güncel cache'i JSON olarak repoya kaydet."""
     with open(MEDIUM_CACHE, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
 def parse_publication(link):
-    """Medium URL'inden publication adını çıkar."""
     subdomain_match = re.match(r"https://([^.]+)\.medium\.com/", link)
     path_match      = re.match(r"https://medium\.com/([^@/][^/]*)/", link)
     system_paths    = {"tag", "tags", "search", "topic", "topics",
@@ -50,8 +47,15 @@ def parse_publication(link):
 def fetch_medium_articles():
     cache = load_medium_cache()
 
-    url  = f"https://medium.com/feed/@{MEDIUM_USERNAME}"
-    feed = feedparser.parse(url)
+    try:
+        # feedparser'a timeout eklemek için önce requests ile çekip ona veriyoruz
+        rss_url  = f"https://medium.com/feed/@{MEDIUM_USERNAME}"
+        response = requests.get(rss_url, timeout=15)
+        response.raise_for_status()
+        feed = feedparser.parse(response.text)
+    except Exception as e:
+        print(f"   ⚠️ Medium RSS fetch failed: {e}. Using cache only.")
+        return list(cache.values())
 
     new_count = 0
     for entry in feed.entries:
@@ -70,16 +74,18 @@ def fetch_medium_articles():
     return list(cache.values())
 
 
-
 def fetch_devto_articles():
-    url = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100"
-    response = requests.get(url, timeout=10)
-    articles = []
-    if response.status_code == 200:
-        for item in response.json():
-            articles.append({"title": item["title"], "url": item["url"]})
-    return articles
-
+    try:
+        url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100"
+        response = requests.get(url, timeout=15)
+        articles = []
+        if response.status_code == 200:
+            for item in response.json():
+                articles.append({"title": item["title"], "url": item["url"]})
+        return articles
+    except Exception as e:
+        print(f"   ⚠️ dev.to fetch failed: {e}")
+        return []
 
 
 def build_medium_rows(articles):

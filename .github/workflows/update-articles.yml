@@ -3,6 +3,7 @@ name: 📝 Update Blog Articles
 on:
   schedule:
     - cron: "15 7 * * *"
+    - cron: "30 7 * * *"
   workflow_dispatch:
 
 jobs:

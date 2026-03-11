@@ -80,13 +80,15 @@ def fetch_medium_articles():
 
 def fetch_devto_articles():
     try:
-        url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=100"
-        response = SESSION.get(url, timeout=(5, 10))
-        if response.status_code == 200:
-            return [{"title": i["title"], "url": i["url"]} for i in response.json()]
+        url      = f"https://dev.to/api/articles?username={DEVTO_USERNAME}&per_page=1000"
+        response = SESSION.get(url, timeout=(5, 15))
+        response.raise_for_status()
+        articles = response.json()
+        print(f"   📋 dev.to API returned {len(articles)} articles.")
+        return [{"title": i["title"], "url": i["url"]} for i in articles]
     except Exception as e:
         print(f"   ⚠️  dev.to fetch failed: {e}")
-    return []
+    return None  # None = fetch failed, don't overwrite existing content
 
 
 def build_medium_rows(articles):
@@ -120,15 +122,20 @@ def main():
 
     print("📡 Fetching dev.to articles...")
     devto_articles = fetch_devto_articles()
-    print(f"   ✅ {len(devto_articles)} articles fetched.")
+    if devto_articles is None:
+        print("   ⚠️  dev.to fetch failed — skipping devto section update.")
+    else:
+        print(f"   ✅ {len(devto_articles)} articles fetched.")
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
     content = replace_section(content, MEDIUM_START, MEDIUM_END,
                                build_medium_rows(medium_articles))
-    content = replace_section(content, DEVTO_START, DEVTO_END,
-                               build_devto_rows(devto_articles))
+
+    if devto_articles is not None:
+        content = replace_section(content, DEVTO_START, DEVTO_END,
+                                   build_devto_rows(devto_articles))
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)

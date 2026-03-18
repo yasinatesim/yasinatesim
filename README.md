@@ -25,11 +25,13 @@
 - [yasinates.com Çok Yakında Yayında](https://medium.com/@yasinatesim/yasinates-com-%C3%A7ok-yak%C4%B1nda-yay%C4%B1nda-dede320f9281?source=rss-912131191640------2)
 - [A’dan Z’ye Typescript](https://medium.com/@yasinatesim/adan-z-ye-typescript-d27a1b6ff17a?source=rss-912131191640------2)
 - [Bir HTML Preprocessors’u: Pug Js](https://medium.com/@yasinatesim/bir-html-preprocessorsu-pug-js-761b6289a26b?source=rss-912131191640------2)
+- [Sıfırdan İleri Seviyeye: Git Versiyon Kontrol Sistemi ☕️](https://medium.com/@yasinatesim/s%C4%B1f%C4%B1rdan-i%CC%87leri-seviyeye-git-versiyon-kontrol-sistemi-%EF%B8%8F-40b59079697f?source=rss-912131191640------2)
 <!-- MEDIUM-ARTICLES:END -->
 
 ## 📝 Latest dev.to Articles
 
 <!-- DEVTO-ARTICLES:START -->
+- [From Zero to Advanced: The Git Version Control System ☕️](https://dev.to/yasinatesim/from-zero-to-advanced-the-git-version-control-system-59am)
 - [Keep Your GitHub Profile README Alive: Auto-Update with GitHub Actions ⚡](https://dev.to/yasinatesim/keep-your-github-profile-readme-alive-auto-update-with-github-actions-952)
 - [Micro Frontend Architecture (with React Examples) 🧩](https://dev.to/yasinatesim/micro-frontend-architecture-with-react-examples-2b5h)
 - [yasinates.com is coming soon 😋](https://dev.to/yasinatesim/yasinates-com-is-coming-soon-50od)

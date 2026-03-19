@@ -49,8 +49,6 @@ def parse_publication(link):
 def fetch_medium_articles():
     cache = load_medium_cache()
 
-    # Medium bazen GitHub Actions IP'lerini bloke eder.
-    # Bu durumda cache'teki mevcut makaleleri kullanırız.
     rss_url = f"https://medium.com/feed/@{MEDIUM_USERNAME}"
     try:
         response = SESSION.get(rss_url, timeout=(5, 10))  # (connect, read) timeout

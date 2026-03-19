@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [Sıfırdan İleri Seviyeye: Git Versiyon Kontrol Sistemi ☕️](https://medium.com/@yasinatesim/s%C4%B1f%C4%B1rdan-i%CC%87leri-seviyeye-git-versiyon-kontrol-sistemi-%EF%B8%8F-40b59079697f?source=rss-912131191640------2)
 - [GitHub Profil README’ni Canlı Tut: GitHub Actions ile Otomatik Güncelleme Rehberi⚡](https://medium.com/@yasinatesim/github-profil-readmeni-canl%C4%B1-tut-github-actions-ile-otomatik-g%C3%BCncelleme-rehberi-64035541c644?source=rss-912131191640------2)
 - [Micro Frontend Mimarisi (React Örnekleriyle)](https://medium.com/@yasinatesim/micro-frontend-mimarisi-react-%C3%B6rnekleriyle-f19523caab11?source=rss-912131191640------2)
 - [Websitenize Dalgalı Efektli Divider’lar Ekleyin](https://medium.com/@yasinatesim/websitenize-dalgal%C4%B1-efektli-dividerlar-ekleyin-7681d4caeb25?source=rss-912131191640------2)
@@ -25,7 +26,6 @@
 - [yasinates.com Çok Yakında Yayında](https://medium.com/@yasinatesim/yasinates-com-%C3%A7ok-yak%C4%B1nda-yay%C4%B1nda-dede320f9281?source=rss-912131191640------2)
 - [A’dan Z’ye Typescript](https://medium.com/@yasinatesim/adan-z-ye-typescript-d27a1b6ff17a?source=rss-912131191640------2)
 - [Bir HTML Preprocessors’u: Pug Js](https://medium.com/@yasinatesim/bir-html-preprocessorsu-pug-js-761b6289a26b?source=rss-912131191640------2)
-- [Sıfırdan İleri Seviyeye: Git Versiyon Kontrol Sistemi ☕️](https://medium.com/@yasinatesim/s%C4%B1f%C4%B1rdan-i%CC%87leri-seviyeye-git-versiyon-kontrol-sistemi-%EF%B8%8F-40b59079697f?source=rss-912131191640------2)
 <!-- MEDIUM-ARTICLES:END -->
 
 ## 📝 Latest dev.to Articles

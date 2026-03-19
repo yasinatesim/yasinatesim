@@ -57,19 +57,27 @@ def fetch_medium_articles():
         response.raise_for_status()
         feed = feedparser.parse(response.text)
 
+        feed_links = {entry.link for entry in feed.entries}
+        new_cache = {}
         new_count = 0
+
         for entry in feed.entries:
             link = entry.link
             if link not in cache:
-                cache[link] = {
-                    "title":       entry.title,
-                    "url":         link,
-                    "publication": parse_publication(link),
-                }
                 new_count += 1
+            new_cache[link] = {
+                "title":       entry.title,
+                "url":         link,
+                "publication": parse_publication(link),
+            }
 
-        save_medium_cache(cache)
-        print(f"   📦 Cache: {len(cache)} total | +{new_count} new")
+        for link, data in cache.items():
+            if link not in feed_links:
+                new_cache[link] = data
+
+        save_medium_cache(new_cache)
+        print(f"   📦 Cache: {len(new_cache)} total | +{new_count} new")
+        return list(new_cache.values())
 
     except Exception as e:
         print(f"   ⚠️  Medium RSS unavailable: {e}")

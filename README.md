@@ -31,7 +31,6 @@
 ## 📝 Latest dev.to Articles
 
 <!-- DEVTO-ARTICLES:START -->
-- [From Zero to Advanced: The Git Version Control System ☕️](https://dev.to/yasinatesim/from-zero-to-advanced-the-git-version-control-system-59am)
 - [Keep Your GitHub Profile README Alive: Auto-Update with GitHub Actions ⚡](https://dev.to/yasinatesim/keep-your-github-profile-readme-alive-auto-update-with-github-actions-952)
 - [Micro Frontend Architecture (with React Examples) 🧩](https://dev.to/yasinatesim/micro-frontend-architecture-with-react-examples-2b5h)
 - [yasinates.com is coming soon 😋](https://dev.to/yasinatesim/yasinates-com-is-coming-soon-50od)

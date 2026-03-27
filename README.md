@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [GitHub Actions ile Lighthouse’u CI/CD Pipeline’ına Entegre Etmek](https://medium.com/@yasinatesim/github-actions-ile-lighthouseu-ci-cd-pipeline-%C4%B1na-entegre-etmek-b6033c828f3f?source=rss-912131191640------2)
 - [Tek Prompt İle Kendi AI Agent Ekosistemini Kur: Planlama, Agent ve Skill Düzeni Nasıl Olmalı?](https://medium.com/@yasinatesim/tek-prompt-i%CC%87le-kendi-ai-agent-ekosistemini-kur-planlama-agent-ve-skill-d%C3%BCzeni-nas%C4%B1l-olmal%C4%B1-0bf7894588d6?source=rss-912131191640------2)
 - [Sıfırdan İleri Seviyeye: Git Versiyon Kontrol Sistemi ☕️](https://medium.com/@yasinatesim/s%C4%B1f%C4%B1rdan-i%CC%87leri-seviyeye-git-versiyon-kontrol-sistemi-%EF%B8%8F-40b59079697f?source=rss-912131191640------2)
 - [GitHub Profil README’ni Canlı Tut: GitHub Actions ile Otomatik Güncelleme Rehberi⚡](https://medium.com/@yasinatesim/github-profil-readmeni-canl%C4%B1-tut-github-actions-ile-otomatik-g%C3%BCncelleme-rehberi-64035541c644?source=rss-912131191640------2)

@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [Git Hooks ile Commit Mesajlarına Otomatik Branch İsmi Eklemek](https://medium.com/@yasinatesim/git-hooks-ile-commit-mesajlar%C4%B1na-otomatik-branch-i%CC%87smi-eklemek-2791b1f81e35?source=rss-912131191640------2)
 - [Frontend Mülakatlarında En Sık Karşılaştığım Sorular ve Cevapları](https://medium.com/@yasinatesim/frontend-m%C3%BClakatlar%C4%B1nda-en-s%C4%B1k-kar%C5%9F%C4%B1la%C5%9Ft%C4%B1%C4%9F%C4%B1m-sorular-ve-cevaplar%C4%B1-c96e323f3741?source=rss-912131191640------2)
 - [GitHub Actions ile Lighthouse’u CI/CD Pipeline’ına Entegre Etmek](https://medium.com/@yasinatesim/github-actions-ile-lighthouseu-ci-cd-pipeline-%C4%B1na-entegre-etmek-b6033c828f3f?source=rss-912131191640------2)
 - [Tek Prompt İle Kendi AI Agent Ekosistemini Kur: Planlama, Agent ve Skill Düzeni Nasıl Olmalı?](https://medium.com/@yasinatesim/tek-prompt-i%CC%87le-kendi-ai-agent-ekosistemini-kur-planlama-agent-ve-skill-d%C3%BCzeni-nas%C4%B1l-olmal%C4%B1-0bf7894588d6?source=rss-912131191640------2)

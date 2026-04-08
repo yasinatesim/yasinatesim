@@ -38,6 +38,7 @@
 ## 📝 Latest dev.to Articles
 
 <!-- DEVTO-ARTICLES:START -->
+- [Atomic Design in Practice: React and Storybook from Scratch 🧩](https://dev.to/yasinatesim/atomic-design-in-practice-react-and-storybook-from-scratch-2gkh)
 - [Monorepo Architecture with pnpm Workspace, Turborepo & Changesets 📦](https://dev.to/yasinatesim/monorepo-architecture-with-pnpm-workspace-turborepo-changesets-g0j)
 - [From Zero to Advanced: The Git Version Control System ☕️](https://dev.to/yasinatesim/from-zero-to-advanced-the-git-version-control-system-59am)
 - [Keep Your GitHub Profile README Alive: Auto-Update with GitHub Actions ⚡](https://dev.to/yasinatesim/keep-your-github-profile-readme-alive-auto-update-with-github-actions-952)

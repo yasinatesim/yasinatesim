@@ -47,21 +47,21 @@
 <!-- DEVTO-ARTICLES:END -->
 
 
-## 🛠️ Tech Stack
 
+## 🛠️ Tech Stack
 <p align="center">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img alt="CSS3" src="https://custom-icon-badges.demolab.com/badge/CSS3-1572B6?style=for-the-badge&logo=css"/>
   <img alt="SASS" src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img alt="ES6" src="https://img.shields.io/badge/ES6-444444?style=for-the-badge&logo=javascript&logoColor=yellow"/>
   <img alt="Babel" src="https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=black"/>
   <img alt="React" src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img alt="Redux" src="https://img.shields.io/badge/Redux-593d88?style=for-the-badge&logo=redux&logoColor=white"/>
-  <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vue.js&logoColor=white"/>
+  <img alt="Vue.js" src="https://img.shields.io/badge/Vue.js-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white"/>
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
   <img alt="Remix" src="https://img.shields.io/badge/Remix-FAFAFA?style=for-the-badge&logo=remix&logoColor=black"/>
-  <img alt="TanStack" src="https://img.shields.io/badge/TanStack-FF4154?style=for-the-badge&logo=react-query&logoColor=white"/>
+  <img alt="TanStack" src="https://img.shields.io/badge/TanStack-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"/>
   <img alt="Storybook" src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white"/>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img alt="Yarn" src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white"/>
@@ -75,52 +75,29 @@
   <img alt="React Native" src="https://img.shields.io/badge/React_Native-20232a?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 </p>
-</p>
-
 
 ## 📫 Contact
-
 **Email:** yasinatesim@gmail.com
 
 ## 🌐 Social Media
-
-
 <p>
   <a href="https://www.linkedin.com/in/yasinatesim">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=white"/>
   </a>
   <a href="https://instagram.com/yasinatesim">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
   <a href="https://twitter.com/yasinatesim">
-    <img src="https://img.shields.io/badge/X(Twitter)-%23181818?style=for-the-badge&logo=x&logoColor=white"/>
+    <img src="https://img.shields.io/badge/X(Twitter)-181818?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
   <a href="https://medium.com/@yasinatesim">
-    <img src="https://img.shields.io/badge/Medium-%23000000?style=for-the-badge&logo=medium&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/>
   </a>
   <a href="https://dev.to/yasinatesim">
-    <img src="https://img.shields.io/badge/dev.to-%23000000?style=for-the-badge&logo=devdotto&logoColor=white"/>
+    <img src="https://img.shields.io/badge/dev.to-000000?style=for-the-badge&logo=devdotto&logoColor=white"/>
   </a>
   <a href="https://youtube.com/@yasinatesim">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
   </a>
 </p>
-
-
----
-
-
-<details>
-  <summary>Stats...</summary>
-
-
-<p align="center">
-  <a href="https://github.com/yasinatesim">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=yasinatesim&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yasinatesim&theme=radical&layout=compact"/>
-    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=yasinatesim&theme=radical"/>
-    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yasinatesim&theme=radical"/>
-  </a>
-</p>
-</details>
 

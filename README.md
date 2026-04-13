@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [React’te Compound Component Pattern (Zustand ile)](https://medium.com/@yasinatesim/reactte-compound-component-pattern-zustand-ile-10413372b2a1?source=rss-912131191640------2)
 - [Atomic Design Prensibi (React ve Storybook Örnekleriyle)](https://medium.com/@yasinatesim/atomic-design-prensibi-react-ve-storybook-%C3%B6rnekleriyle-e43e50ca9807?source=rss-912131191640------2)
 - [Loading, Error ve Empty State Nasıl Daha İyi Yönetilir? ✨](https://medium.com/@yasinatesim/loading-error-ve-empty-state-nas%C4%B1l-daha-i%CC%87yi-y%C3%B6netilir-82cda1bcc08e?source=rss-912131191640------2)
 - [pnpm workspace ile Monorepo Mimarisi](https://medium.com/@yasinatesim/pnpm-workspace-ile-monorepo-mimarisi-eaf52fc3f61f?source=rss-912131191640------2)

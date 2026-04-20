@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [Module Federation ile React Uygulamalarını Parçalamak (Webpack ile)⚡](https://medium.com/@yasinatesim/module-federation-ile-react-uygulamalar%C4%B1n%C4%B1-par%C3%A7alamak-webpack-ile-6aa057f28d3c?source=rss-912131191640------2)
 - [Component Driven Development Nedir? Nasıl Uygulanır?](https://medium.com/@yasinatesim/component-driven-development-nedir-nas%C4%B1l-uygulan%C4%B1r-9e6b4e51951b?source=rss-912131191640------2)
 - [React’te Compound Component Pattern (Zustand ile)](https://medium.com/@yasinatesim/reactte-compound-component-pattern-zustand-ile-10413372b2a1?source=rss-912131191640------2)
 - [Atomic Design Prensibi (React ve Storybook Örnekleriyle)](https://medium.com/@yasinatesim/atomic-design-prensibi-react-ve-storybook-%C3%B6rnekleriyle-e43e50ca9807?source=rss-912131191640------2)

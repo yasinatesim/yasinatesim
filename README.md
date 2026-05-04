@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [Git’te Yanlış Commit’i Kurtarma: git reset, git revert ve git reflog ️](https://medium.com/@yasinatesim/gitte-yanl%C4%B1%C5%9F-commit-i-kurtarma-git-reset-git-revert-ve-git-reflog-%EF%B8%8F-d0104228e1c1?source=rss-912131191640------2)
 - [React’te Reusable Component Yazarken Dikkat Edilmesi Gerekenler ⚛️](https://medium.com/@yasinatesim/reactte-reusable-component-yazarken-dikkat-edilmesi-gerekenler-%EF%B8%8F-518339eedc2a?source=rss-912131191640------2)
 - [Bundle Analyzer ile React Projelerini İncelemek](https://medium.com/@yasinatesim/bundle-analyzer-ile-react-projelerini-i%CC%87ncelemek-7fbef253cb9c?source=rss-912131191640------2)
 - [Module Federation ile React Uygulamalarını Parçalamak (Webpack ile)⚡](https://medium.com/@yasinatesim/module-federation-ile-react-uygulamalar%C4%B1n%C4%B1-par%C3%A7alamak-webpack-ile-6aa057f28d3c?source=rss-912131191640------2)

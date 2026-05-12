@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [Virtualization: Binlerce Satırı Sorunsuz Render Etmenin Yolu (TanStack ve React Örnekleriyle) ⚡️](https://medium.com/@yasinatesim/virtualization-binlerce-sat%C4%B1r%C4%B1-sorunsuz-render-etmenin-yolu-tanstack-ve-react-%C3%B6rnekleriyle-%EF%B8%8F-9d4c8200078a?source=rss-912131191640------2)
 - [Git’te Yanlış Commit’i Kurtarma: git reset, git revert ve git reflog ️](https://medium.com/@yasinatesim/gitte-yanl%C4%B1%C5%9F-commit-i-kurtarma-git-reset-git-revert-ve-git-reflog-%EF%B8%8F-d0104228e1c1?source=rss-912131191640------2)
 - [React’te Reusable Component Yazarken Dikkat Edilmesi Gerekenler ⚛️](https://medium.com/@yasinatesim/reactte-reusable-component-yazarken-dikkat-edilmesi-gerekenler-%EF%B8%8F-518339eedc2a?source=rss-912131191640------2)
 - [Bundle Analyzer ile React Projelerini İncelemek](https://medium.com/@yasinatesim/bundle-analyzer-ile-react-projelerini-i%CC%87ncelemek-7fbef253cb9c?source=rss-912131191640------2)

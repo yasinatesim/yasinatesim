@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [Dependabot ile Paket Güncelleme Otomasyonu](https://medium.com/@yasinatesim/dependabot-ile-paket-g%C3%BCncelleme-otomasyonu-8b20db442325?source=rss-912131191640------2)
 - [PR Template ve Code Review Sürecini İyileştirme](https://medium.com/@yasinatesim/pr-template-ve-code-review-s%C3%BCrecini-i%CC%87yile%C5%9Ftirme-63d5cfad15e5?source=rss-912131191640------2)
 - [Virtualization: Binlerce Satırı Sorunsuz Render Etmenin Yolu (TanStack ve React Örnekleriyle) ⚡️](https://medium.com/@yasinatesim/virtualization-binlerce-sat%C4%B1r%C4%B1-sorunsuz-render-etmenin-yolu-tanstack-ve-react-%C3%B6rnekleriyle-%EF%B8%8F-9d4c8200078a?source=rss-912131191640------2)
 - [Git’te Yanlış Commit’i Kurtarma: git reset, git revert ve git reflog ️](https://medium.com/@yasinatesim/gitte-yanl%C4%B1%C5%9F-commit-i-kurtarma-git-reset-git-revert-ve-git-reflog-%EF%B8%8F-d0104228e1c1?source=rss-912131191640------2)

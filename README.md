@@ -18,6 +18,7 @@
 ## ✍️ Latest Medium Articles
 
 <!-- MEDIUM-ARTICLES:START -->
+- [AI Agent’larla Sıfırdan Uçtan Uca E-Ticaret Projesi Geliştirmek: BRAID Mimarisi ve Mermeid…](https://medium.com/@yasinatesim/ai-agentlarla-s%C4%B1f%C4%B1rdan-u%C3%A7tan-uca-e-ticaret-projesi-geli%C5%9Ftirmek-braid-mimarisi-ve-mermeid-3cafd5b53f9a?source=rss-912131191640------2)
 - [Dependabot ile Paket Güncelleme Otomasyonu](https://medium.com/@yasinatesim/dependabot-ile-paket-g%C3%BCncelleme-otomasyonu-8b20db442325?source=rss-912131191640------2)
 - [PR Template ve Code Review Sürecini İyileştirme](https://medium.com/@yasinatesim/pr-template-ve-code-review-s%C3%BCrecini-i%CC%87yile%C5%9Ftirme-63d5cfad15e5?source=rss-912131191640------2)
 - [Virtualization: Binlerce Satırı Sorunsuz Render Etmenin Yolu (TanStack ve React Örnekleriyle) ⚡️](https://medium.com/@yasinatesim/virtualization-binlerce-sat%C4%B1r%C4%B1-sorunsuz-render-etmenin-yolu-tanstack-ve-react-%C3%B6rnekleriyle-%EF%B8%8F-9d4c8200078a?source=rss-912131191640------2)
